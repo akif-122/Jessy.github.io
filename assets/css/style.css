@@ -910,6 +910,12 @@ p.intro:before {
     }
 }
 
+@media (max-width: 425px){
+    .project .project-wrap .project-image .image img{
+        border-radius: 20px;
+    }
+}
+
 /* 
 =====================================
    PROJECT SECTION END

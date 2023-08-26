@@ -1,0 +1,140 @@
+/* 
+===================================
+    PROJECT DETAIL SECTION START
+===================================
+*/
+
+.project-detail .project-wrap .project-image {
+    width: 55%;
+}
+
+.project-detail .project-wrap .project-image .image:after {
+    background-color: transparent;
+}
+
+.project-detail .project-wrap .project-content {
+    width: 35%;
+}
+
+.project-detail .project-wrap .project-content h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #64f4ab;
+}
+
+.project-detail .likeShare {
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.project-detail .likeShare .btn-wrap {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 30px;
+
+}
+
+.project-detail .likeShare .btn-wrap span {
+    font-size: 22px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.project-detail .likeShare button {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    border: 1px solid #64f4ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #64f4ab;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.project-detail .likeShare button:hover {
+    color: #25262A;
+    border-color: #FFAF29;
+    background-color: #FFAF29;
+}
+
+.project-detail .category-wrap h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fecd1a;
+}
+
+.project-detail .project-wrap .project-content .category-wrap p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+
+@media (max-width: 1399px) {
+    .project-detail .project-wrap .project-content h2 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .project-detail .project-wrap .project-content {
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px) {
+    .project-detail .project-wrap .project-image{
+        width: 80%;
+    }
+    .project-detail .project-wrap .project-content {
+        width: 90%;
+    }
+    .project-detail .likeShare{
+        margin: 30px 0;
+    }
+    .project-detail .likeShare button {
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;  
+    }
+    .project-detail .likeShare .btn-wrap span {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .project-detail .project-wrap .project-image{
+        width: 95%;
+    }
+    .project-detail .project-wrap .project-content {
+        width: 95%;
+    }
+    .project-detail .likeShare{
+        margin: 30px 0;
+    }
+    .project-detail .likeShare button {
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;  
+    }
+    .project-detail .likeShare .btn-wrap span {
+        font-size: 17px;
+    }
+}
+
+
+
+
+/* 
+===================================
+    PROJECT DETAIL SECTION END
+===================================
+*/
