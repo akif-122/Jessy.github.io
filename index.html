@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jessy</title>
 
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
     <!-- OWL CAROUSEL CSS -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -40,11 +43,11 @@
 
             <!-- NAVBAR SECTION START -->
             <nav class="navbar">
-                <a href="#" class="header-logo">
+                <a href="#" class="header-logo" data-aos="fade-right">
                     <img src="assets/images/logo-header.svg" alt="logo">
                 </a>
 
-                <div class="header-nav me-auto">
+                <div class="header-nav me-auto" data-aos="zoom-in">
                     <ul class="nav flex">
                         <li><a href="index.html" class="nav-link active">Home</a></li>
                         <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
@@ -56,7 +59,7 @@
                     <span class="nav-toggler-icon"></span>
                 </div>
 
-                <div class="nav-right flex">
+                <div class="nav-right flex" data-aos="fade-left">
                     <a href="#" class="icon-btn">
                         <i class="fa fa-dribbble"></i>
                     </a>
@@ -73,7 +76,7 @@
             <!-- HERO SECTION START -->
             <section class="hero">
                 <div class="flex hero-wrap">
-                    <div class="hero-content">
+                    <div class="hero-content" data-aos="fade-down">
                         <p class="intro">Introducing</p>
                         <h4>Hello</h4>
                         <h1>I'm Jessy Walter
@@ -86,14 +89,14 @@
                         </div>
                     </div>
                     <div class="hero-img">
-                        <div class="sides">
+                        <div class="sides" data-aos="zoom-in">
                             <span class="hero-img-d hero-img-d-1">Id</span>
                             <span class="hero-img-d hero-img-d-2">Ps</span>
                             <span class="hero-img-d hero-img-d-3">Ai</span>
                             <span class="hero-img-d hero-img-d-4">Xd</span>
                         </div>
-                        <img class="bg-img" src="assets/images/hero-img-bg.svg" alt="">
-                        <img src="assets/images/hero-img.png" alt="">
+                        <img data-aos="zoom-in" class="bg-img" src="assets/images/hero-img-bg.svg" alt="">
+                        <img data-aos="fade-up" src="assets/images/hero-img.png" alt="">
 
                     </div>
                 </div>
@@ -107,7 +110,7 @@
         <section class="about">
             <div class="flex about-wrap">
                 <div class="about-card-wrap">
-                    <section class="cards flex">
+                    <section class="cards flex" data-aos="zoom-out">
                         <div class="card">
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -189,8 +192,8 @@
                         </div>
                     </section>
 
-                    <section class="cards flex">
-                        <div class="card">
+                    <section class="cards flex" data-aos="zoom-out">
+                        <div class="card" data-aos="zoom-out">
                             <div class="card-icon">
                                 <svg id="ui_design_-_icon" data-name="ui design - icon"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -214,7 +217,7 @@
                                 <p>The technological revolution is changing aspect</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" data-aos="zoom-out">
                             <div class="card-icon">
                                 <svg id="icon_design_-_icon" data-name="icon design - icon"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -299,13 +302,14 @@
                     </section>
                 </div>
                 <div class="about-content">
-                    <p class="intro">My Skills</p>
-                    <h2>Why Hire Me For Next Project?</h2>
-                    <p>The technological revolution is changing aspect of our lives, and the fabric of society itself.
+                    <p class="intro" data-aos="fade-right">My Skills</p>
+                    <h2 data-aos="fade-up">Why Hire Me For Next Project?</h2>
+                    <p data-aos="fade-up">The technological revolution is changing aspect of our lives, and the fabric
+                        of society itself.
                         it's also changing the way we learn and what we learn. Factual knowledge is less prized when
                         everything you ever need to know can be found on your phone. There's no imperative to be an
                         expert at doing everything when you can.</p>
-                    <div class="about-btn">
+                    <div class="about-btn" data-aos="zoom-in">
                         <a href="#" class="h-btn">Download CV</a>
                     </div>
                 </div>
@@ -317,7 +321,7 @@
         <section class="project">
 
             <div class="project-wrap flex">
-                <div class="project-content">
+                <div class="project-content" data-aos="fade-down-right">
                     <p class="intro">Porject 1</p>
                     <h2><a href="project detail.html">Branding Nice Studio</a></h2>
                     <p>The technological revolution is changing aspect of our lives, and the fabric of society itself.
@@ -329,7 +333,7 @@
                     </div>
                 </div>
 
-                <div class="project-image">
+                <div class="project-image" data-aos="fade-up-left">
                     <a href="project detail.html">
                         <div class="image">
                             <img src="assets/images/portfolio-1-img.jpg" width="100%" alt="Portfolio image 1">
@@ -340,7 +344,7 @@
 
             <div class="project-wrap flex row-reverse">
                 <img class="project-bg-img" src="assets/images/svgexport-10.svg" alt="">
-                <div class="project-content">
+                <div class="project-content" data-aos="fade-left">
                     <p class="intro">Porject 2</p>
                     <h2><a href="project detail.html">Mobile Card App</a></h2>
                     <p>The technological revolution is changing aspect of our lives, and the fabric of society itself.
@@ -352,7 +356,7 @@
                     </div>
                 </div>
 
-                <div class="project-image">
+                <div class="project-image" data-aos="fade-down">
                     <a href="project detail.html">
                         <div class="image">
                             <img src="assets/images/portfolio-2-img.jpg" width="100%" alt="Portfolio image 1">
@@ -362,7 +366,7 @@
             </div>
 
             <div class="project-wrap flex last">
-                <div class="project-content">
+                <div class="project-content" data-aos="fade-right">
                     <p class="intro">Porject 3</p>
                     <h2><a href="project detail.html">Resturant Landing Page</a></h2>
                     <p>The technological revolution is changing aspect of our lives, and the fabric of society itself.
@@ -374,7 +378,7 @@
                     </div>
                 </div>
 
-                <div class="project-image">
+                <div class="project-image" data-aos="fade-down-left">
                     <a href="project detail.html">
                         <div class="image">
                             <img src="assets/images/portfolio-3-img.jpg" width="100%" alt="Portfolio image 1">
@@ -384,10 +388,10 @@
             </div>
 
             <!-- PROJECT BTN -->
-            <div class="project-link-btn">   
+            <div class="project-link-btn" data-aos="zoom-in">
                 <a href="portfolio.html">View All</a>
             </div>
-            
+
         </section>
         <!-- PROJECT SECTION END -->
 
@@ -421,24 +425,24 @@
                 </svg>
             </div>
             <div class="counter-wrap">
-                <div class="count">
-                    <h2>56</h2>
+                <div class="count" data-aos="fade-right">
+                    <h2 class="count-up">56</h2>
                     <p>Happy Clients</p>
                 </div>
 
-                <div class="count">
-                    <h2>87</h2>
+                <div class="count" data-aos="fade-down">
+                    <h2 class="count-up">87</h2>
                     <p>Projects Done</p>
                 </div>
 
 
-                <div class="count">
-                    <h2>16</h2>
+                <div class="count" data-aos="fade-up">
+                    <h2 class="count-up">16</h2>
                     <p>Awards Winning</p>
                 </div>
 
-                <div class="count">
-                    <h2>7</h2>
+                <div class="count" data-aos="fade-left">
+                    <h2 class="count-up">7</h2>
                     <p>Years Experience</p>
                 </div>
             </div>
@@ -449,10 +453,10 @@
         <section class="testimonial testimonial-slider owl-carousel owl-theme">
             <div class="testimonial-wrap">
 
-                <div class="testimonial-img">
+                <div class="testimonial-img" data-aos="fade-down">
                     <img src="assets/images/testimonials-img.jpg" alt="">
                 </div>
-                <div class="testimonial-content">
+                <div class="testimonial-content" data-aos="fade-up-left">
                     <div class="test-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="61.158" height="51.075"
                             viewBox="0 0 61.158 51.075">
@@ -483,12 +487,12 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="testimonial-wrap">
-                <div class="testimonial-img">
+                <div class="testimonial-img" data-aos="fade-down">
                     <img src="assets/images/testi21.png" alt="">
                 </div>
-                <div class="testimonial-content">
+                <div class="testimonial-content" data-aos="fade-up-left">
                     <div class="test-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="61.158" height="51.075"
                             viewBox="0 0 61.158 51.075">
@@ -530,11 +534,12 @@
                 <img class="work-bg-img img2" src="assets/images/svgexport-29.svg" alt="">
 
                 <div class="work-content">
-                    <h2>Lets Work Together</h2>
-                    <p>The technological revolution is changing aspect of our lives, and the fabric of society itself.
+                    <h2 data-aos="zoom-out">Lets Work Together</h2>
+                    <p data-aos="fade-right">The technological revolution is changing aspect of our lives, and the
+                        fabric of society itself.
                         it's also changing the way we learn and what we learn</p>
 
-                    <div class="work-btn">
+                    <div class="work-btn" data-aos="fade-up">
                         <a href="contact.html" class="h-btn">Contact Me</a>
                     </div>
 
@@ -546,17 +551,17 @@
         <!-- FOOTER SECTION START -->
         <footer class="footer">
             <div class="footer-content">
-                <a href="#" class="ft-logo">
+                <a href="#" class="ft-logo" data-aos="fade-right">
                     <img src="assets/images/logo-header.svg" alt="Logo">
                 </a>
 
-                <p>&copy; 2023 Freelancer - Phlox Elementor WordPress Theme. All rights reserved.</p>
+                <p data-aos="zoom-in">&copy; 2023 Freelancer - Phlox Elementor WordPress Theme. All rights reserved.</p>
 
                 <ul class="socail-icon list-unStyle">
-                    <li><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-down"><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-right"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-left"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-up"><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
                 </ul>
 
             </div>
@@ -570,13 +575,28 @@
     <!-- JQUERY JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
+    <!-- COUNTER UP  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
+        integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- AOS ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <!-- OWL CAROUSEL JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- CUSTOM JS -->
     <script src="assets/js/app.js"></script>
 
+    <script src="res/countMe/countMe.min.js"></script>
+
     <script>
+        // TESTIMONIAL SLIDER
         $('.testimonial-slider').owlCarousel({
             loop: true,
             nav: false,
@@ -589,9 +609,18 @@
                 0: {
                     items: 1,
                 }
-               
+
             }
-        })
+        });
+
+        // COUNTER UP
+        jQuery(document).ready(function ($) {
+            $('.count-up').counterUp({
+                delay: 10,
+                time: 1500
+            });
+        });
+
     </script>
 </body>
 

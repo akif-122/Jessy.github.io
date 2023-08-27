@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jessy</title>
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
 
     <!-- FONT AWESOME ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -35,11 +38,11 @@
 
             <!-- NAVBAR SECTION START -->
             <nav class="navbar">
-                <a href="#" class="header-logo">
+                <a href="#" class="header-logo" data-aos="fade-right">
                     <img src="assets/images/logo-header.svg" alt="logo">
                 </a>
 
-                <div class="header-nav me-auto">
+                <div class="header-nav me-auto" data-aos="zoom-in">
                     <ul class="nav flex">
                         <li><a href="index.html" class="nav-link">Home</a></li>
                         <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
@@ -51,7 +54,7 @@
                     <span class="nav-toggler-icon"></span>
                 </div>
 
-                <div class="nav-right flex">
+                <div class="nav-right flex" data-aos="fade-left">
                     <a href="#" class="icon-btn">
                         <i class="fa fa-dribbble"></i>
                     </a>
@@ -71,7 +74,7 @@
         <section class="project project-detail">
 
             <div class="project-wrap flex">
-                <div class="project-image">
+                <div class="project-image" data-aos="fade-right">
                     <a href="#">
                         <div class="image">
                             <img src="assets/images/portfolio-1-img.jpg" width="100%" alt="Portfolio image 1">
@@ -79,19 +82,24 @@
                     </a>
                 </div>
                 <div class="project-content">
-                    <h2>Branding Nice Studio</h2>
-                    <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because those who do not know how to pursue pleasure rationally</p>
-                    
+                    <h2 data-aos="fade-left">Branding Nice Studio</h2>
+                    <p data-aos="zoom-in">I will give you a complete account of the system, and expound the actual
+                        teachings of the great explorer of the truth, the master-builder of human happiness. No one
+                        rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do
+                        not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+                        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it
+                        is pain, but because those who do not know how to pursue pleasure rationally</p>
+
 
 
                     <div class="likeShare flex">
-                        <div class="like btn-wrap">
+                        <div class="like btn-wrap" data-aos="fade-down-right">
                             <button>
                                 <i class="fa fa-heart"></i>
                             </button>
                             <span>Likes (132)</span>
                         </div>
-                        <div class="share btn-wrap">
+                        <div class="share btn-wrap" data-aos="fade-left">
                             <button>
                                 <i class="fa fa-share-alt"></i>
                             </button>
@@ -100,16 +108,16 @@
                     </div>
 
                     <div class="category-wrap">
-                        <div class="">
+                        <div class="" data-aos="zoom-in">
                             <h4>Categories</h4>
                             <p>App Design</p>
                         </div>
-                        <div class="">
+                        <div class="" data-aos="zoom-in">
                             <h4>Client</h4>
                             <p>Company Name</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -124,11 +132,12 @@
                 <img class="work-bg-img img2" src="assets/images/svgexport-29.svg" alt="">
 
                 <div class="work-content">
-                    <h2>Lets Work Together</h2>
-                    <p>The technological revolution is changing aspect of our lives, and the fabric of society itself.
+                    <h2 data-aos="zoom-out">Lets Work Together</h2>
+                    <p data-aos="fade-right">The technological revolution is changing aspect of our lives, and the
+                        fabric of society itself.
                         it's also changing the way we learn and what we learn</p>
 
-                    <div class="work-btn">
+                    <div class="work-btn" data-aos="fade-up">
                         <a href="contact.html" class="h-btn">Contact Me</a>
                     </div>
 
@@ -140,17 +149,17 @@
         <!-- FOOTER SECTION START -->
         <footer class="footer">
             <div class="footer-content">
-                <a href="#" class="ft-logo">
+                <a href="#" class="ft-logo" data-aos="fade-right">
                     <img src="assets/images/logo-header.svg" alt="Logo">
                 </a>
 
-                <p>&copy; 2023 Freelancer - Phlox Elementor WordPress Theme. All rights reserved.</p>
+                <p data-aos="zoom-in">&copy; 2023 Freelancer - Phlox Elementor WordPress Theme. All rights reserved.</p>
 
                 <ul class="socail-icon list-unStyle">
-                    <li><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-down"><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-right"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-left"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li data-aos="fade-up"><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
                 </ul>
 
             </div>
@@ -161,6 +170,13 @@
     </div>
 
 
+    <!-- JQUERY JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- AOS ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- CUSTOM JS -->
     <script src="assets/js/app.js"></script>
 </body>
 
