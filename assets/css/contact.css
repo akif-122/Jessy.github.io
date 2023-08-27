@@ -1,0 +1,185 @@
+
+/* 
+====================================
+    CONTACT SECTION START
+====================================
+*/
+.contact{
+    padding: 100px 35px;
+    background-color: #2D2E32;
+}
+.contact .contact-wrap{
+    align-items: center;
+}
+.contact .contact-wrap .contact-content{
+    width: 50%;
+}
+.contact .contact-wrap .contact-content h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.contact .contact-wrap .contact-content p:not(.intro){
+    font-size: 18px;
+    color: #ecf2fd;
+}
+.contact .contact-wrap .contact-form{
+    width: 45%;
+    margin-left: auto;
+}
+
+.contact .contact-detail{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.contact .contact-detail .contacts{
+    margin: 10px 0;
+}
+.contact .contact-detail .contacts:last-child{
+    margin-left: 40px;
+}
+.contact .contact-detail .contacts .contact-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #25262A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    transition: .4s ease-in-out;
+}
+.contact .contact-detail .contacts:hover .contact-icon{
+    background-color: #FECD1A;
+}
+.contact .contact-detail .contacts:hover .contact-icon svg path{
+    fill: #2D2E32;
+}
+.contact .contact-detail .contacts .contact-icon svg{
+    width: 30px;
+}
+.contact .contact-detail .contacts .contact-d-text h4{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact .contact-detail .contacts .contact-d-text p{
+    font-size: 18px;
+    color: #e8e8e8;
+    margin: 0;
+}
+
+.contact .contact-form .input-container{
+    justify-content: space-between;
+}
+.contact .contact-form .input-container .form-group{
+    width: calc(50% - 10px);
+}
+
+.contact .contact-form .form-group textarea,
+.contact .contact-form .input-container .form-group input{
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    background-color: #25262a;
+    border-radius: 8px;
+    border: 1px solid #64f4ab;
+    outline: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact .contact-form .form-group textarea::placeholder,
+.contact .contact-form .input-container .form-group input::placeholder{
+    color: #fff;
+}
+
+.contact .contact-form .form-group textarea{
+    height: auto;
+    font-size: 18px;
+
+}
+.contact .contact-form .contact-btn{
+    margin: 15px 0;
+}
+.contact .contact-form .contact-btn button.h-btn{
+    border: none;
+    padding: 18px 50px;
+    cursor: pointer;
+    box-shadow: 0 7px 15px -8px #FECC1B;
+    transition: .3s ease-in-out;
+}
+
+
+.contact .contact-form .contact-btn button.h-btn:hover {
+    box-shadow: 0 0 0 0;
+}
+
+@media (max-width: 991px){
+    .contact .contact-wrap{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .contact .contact-wrap .contact-content{
+        width: 90%;
+    }
+
+    .contact .contact-wrap .contact-form{
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px){
+ 
+    .contact .contact-wrap .contact-content{
+        width: 100%;
+    }
+
+    .contact .contact-wrap .contact-content h2{
+        font-size: 30px;
+    }
+    
+    .contact .contact-wrap .contact-content p:not(.intro){
+        font-size: 14px;
+    }
+
+    .contact .contact-detail .contacts .contact-icon{
+        width: 70px;
+        height: 70px;
+    }
+    .contact .contact-detail .contacts .contact-icon svg{
+        width: 20px;
+    }
+}
+@media (max-width: 575px){
+ 
+    .contact{
+        padding: 80px 20px;
+    }
+    .contact .contact-detail{
+        flex-direction: column;
+        align-items: start;
+    }
+    .contact .contact-detail .contacts:last-child{
+        margin-left: 0px;
+    }
+
+    .contact .contact-form .input-container{
+        flex-direction: column;
+    }
+    .contact .contact-form .input-container .form-group{
+        width: 100%;
+    }
+}
+/* 
+====================================
+    CONTACT SECTION END
+====================================
+*/
